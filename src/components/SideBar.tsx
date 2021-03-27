@@ -1,7 +1,6 @@
 import { Button } from './Button';
 import { GenreResponseProps } from '../App'
 
-
 interface SideBarProps{
   genres: GenreResponseProps[]
   handleClickButton(id:number): void
